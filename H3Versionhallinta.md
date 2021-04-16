@@ -46,6 +46,19 @@ Näin meillä on tiedostot koneella ja voimme aloittaa niiden käytön.
 [TeroKarvinen.com]
 (https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
+### Git log
+`git log`  
+Tällä käskyllä näemme viimeaikaiset lisäykset repositorioon, tästä näemme esimerkiksi että Johan Lindell on korjannut
+kirjoitusvirheitä ja ulkoasua, mutta koska ei ole committiin kirjoittanut että missä tiedostossa niin se jää hieman auki.
+
+![git log](/pic/gitlog.JPG)
+
+### Git blame
+Tällä käskyllä näemme tiedostosta kuka on kirjoittanut minkäkin rivin ja koska, kirjoitusvirheiden tekijästä ei jää epäilystä.  
+`git blame H3Versionhallinta.md`  
+
+![git blame](/pic/gitblame.JPG
+
 ---
 ## Tehtävä E
 > e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä
