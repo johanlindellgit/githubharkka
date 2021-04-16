@@ -57,7 +57,7 @@ kirjoitusvirheitä ja ulkoasua, mutta koska ei ole committiin kirjoittanut että
 Tällä käskyllä näemme tiedostosta kuka on kirjoittanut minkäkin rivin ja koska, kirjoitusvirheiden tekijästä ei jää epäilystä.  
 `git blame H3Versionhallinta.md`  
 
-![git blame](/pic/gitblame.JPG
+![git blame](/pic/gitblame.JPG)
 
 ---
 ## Tehtävä E
@@ -65,6 +65,12 @@ Tällä käskyllä näemme tiedostosta kuka on kirjoittanut minkäkin rivin ja k
 > toiminnossa ei ole peruutusnappia.
 [TeroKarvinen.com]
 (https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
+
+Muutetaan H3Versionhallinta.md tiedostoa. Muutokset olikin hölmöjä, joten palataan takaisin githubin viimeisimpään versioon
+ tuosta tiedostosta komennolla  
+`git reset --hard`  
+Tiedostot on nyt palautettu ja muutokset tuhottu
+![git hard reset](/pic/gitreset.JPG)
 
 ---
 ## Tehtävä F
