@@ -3,13 +3,13 @@
 ## Tehtävä A
 > a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset
 > tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
-> Vinkkinä artikkelini Publish Your Project with GitHub.
+> Vinkkinä artikkelini Publish Your Project with GitHub.  
 [TeroKarvinen.com]
 (https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
 ### GitHub
 GitHub tili on tehty aikasemmin sen tuomien GitHub Education etujen takia  
- [https://education.github.com/](https://education.github.com/).  
+[https://education.github.com/](https://education.github.com/).  
 Aloitetaan tekemällä uusi repositio valitsemalla kirjautumisen jälkeen "New" vasemmasta ylälaidasta.  
 
 ![uusi repositio](/pic/github.JPG)
@@ -42,7 +42,7 @@ Näin meillä on tiedostot koneella ja voimme aloittaa niiden käytön.
 
 ---
 ## Tehtävä B
-> d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
+> d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.  
 [TeroKarvinen.com]
 (https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
@@ -62,7 +62,7 @@ Tällä käskyllä näemme tiedostosta kuka on kirjoittanut minkäkin rivin ja k
 ---
 ## Tehtävä E
 > e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä
-> toiminnossa ei ole peruutusnappia.
+> toiminnossa ei ole peruutusnappia.  
 [TeroKarvinen.com]
 (https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
@@ -76,13 +76,13 @@ Tiedostot on nyt palautettu ja muutokset tuhottu
 ## Tehtävä F
 > f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta 
 > toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin
-> aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
+> aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)  
 [TeroKarvinen.com]
 (https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
 ---
 ## Tehtävä D
 > d) Vapaaehtoinen: Laita srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista srv/salt ja palauta se
-> kloonaamalla) ja jatka sillä.
+> kloonaamalla) ja jatka sillä.  
 [TeroKarvinen.com]
 (https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
