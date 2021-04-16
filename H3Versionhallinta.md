@@ -10,11 +10,13 @@
 ### GitHub
 GitHub tili on tehty aikasemmin sen tuomien GitHub Education etujen takia  
  [https://education.github.com/](https://education.github.com/).  
-Aloitetaan tekemällä uusi repositio, valitsemalla kirjautumisen jälkeen "New" vasemmasta ylälaidasta.  
+Aloitetaan tekemällä uusi repositio valitsemalla kirjautumisen jälkeen "New" vasemmasta ylälaidasta.  
+
 ![uusi repositio](/pic/github.JPG)
 
-Seuraavaksi annetaan repositiolle nimi, lyhyt teksit joka selittää mikä sen sisältö on, lisätään README.md tiedosto valmiiksi
+Seuraavaksi annetaan repositiolle nimi, lyhyt tekstit joka selittää mikä sen tarkoitus on, lisätään README.md tiedosto valmiiksi
  ja annetaan lisenssioikeudet.  
+
 ![reposition tiedot](/pic/github1.JPG)  
 
 Ja näin meillä on uusi repositio luotuna
@@ -24,15 +26,18 @@ Ensin asennetan git
 `$ sudo apt-get update`  
 `$ sudo apt-get -y install git`  
 
-Kerrotaan gitille kuka me olemme  
+Kerrotaan gitille kuka me olemme, tämä tieto kirjautuu aina tehtyjen muutosten mukana tiedostoon  
 `$ git config --global user.email "lindellgit@gmx.com"`  
 `$ git config --global user.name "Johan Lindell"`  
 
 Kopioidaan tämä uusi repositorio tietokoneelle, osoite saadaan reposition etusivulta, "CODE" kohdasta  
+
 ![repositio valmis](/pic/github2.JPG)  
+
 `$ git clone https://github.com/johanlindellgit/githubharkka.git` 
 
 Näin meillä on tiedostot koneella ja voimme aloittaa niiden käytön.  
+
 ![git clone](/pic/github3.JPG)  
 
 ---
