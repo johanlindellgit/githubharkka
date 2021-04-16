@@ -1,31 +1,64 @@
-#H3 Versionhallinta
+# H3 Versionhallinta
 
-##Tehtävä A
->a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset
+## Tehtävä A
+> a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset
 > tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 > Vinkkinä artikkelini Publish Your Project with GitHub.
-[TeroKarvinen.com](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
+[TeroKarvinen.com]
+(https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
+
+### GitHub
+GitHub tili on tehty aikasemmin sen tuomien GitHub Education etujen takia
+ [https://education.github.com/](https://education.github.com/).
+Aloitetaan tekemällä uusi repositio, valitsemalla kirjautumisen jälkeen "New" vasemmasta ylälaidasta.
+![uusi repositio](/pic/github.JPG)
+
+Seuraavaksi annetaan repositiolle nimi, lyhyt teksit joka selittää mikä sen sisältö on, lisätään README.md tiedosto valmiiksi
+ ja annetaan lisenssioikeudet.
+![reposition tiedot](/pic/github1.JPG)
+
+Ja näin meillä on uusi repositio luotuna
+
+### Repositorion cloonaus
+Ensin asennetan git
+`$ sudo apt-get update`
+`$ sudo apt-get -y install git`
+
+Kerrotaan gitille kuka me olemme
+`$ git config --global user.email "lindellgit@gmx.com"`
+`$ git config --global user.name "Johan Lindell"` 
+
+Kopioidaan tämä uusi repositorio tietokoneelle, osoite saadaan reposition etusivulta, "CODE" kohdasta
+![repositio valmis](/pic/github2.JPG)
+`$ git clone https://github.com/johanlindellgit/githubharkka.git`
+
+Näin meillä on tiedostot koneella ja voimme aloittaa niiden käytön.
+![git clone](/pic/github3.JPG)
 
 ---
-##Tehtävä B
->d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
-[TeroKarvinen.com](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
+## Tehtävä B
+> d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
+[TeroKarvinen.com]
+(https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
 ---
-##Tehtävä E
->e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä
+## Tehtävä E
+> e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä
 > toiminnossa ei ole peruutusnappia.
-[TeroKarvinen.com](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
+[TeroKarvinen.com]
+(https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
 ---
-##Tehtävä F
->f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta 
->toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin
+## Tehtävä F
+> f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta 
+> toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin
 > aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
-[TeroKarvinen.com](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
+[TeroKarvinen.com]
+(https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
 
 ---
-##Tehtävä D
->d) Vapaaehtoinen: Laita srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista srv/salt ja palauta se
+## Tehtävä D
+> d) Vapaaehtoinen: Laita srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista srv/salt ja palauta se
 > kloonaamalla) ja jatka sillä.
-[TeroKarvinen.com](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
+[TeroKarvinen.com]
+(https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/)
