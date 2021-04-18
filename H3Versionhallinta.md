@@ -95,11 +95,13 @@ ei tarvitse kirjoittaa salasanaa joka push komennon yhteydessä.
 `'git config --system user.email "lindellgit@gmx.com"; git config --system user.name "Johan Lindell"; git config --system credential.helper "cache --timeout=3600"':  
   cmd.run`
 
+![init.sls](/pic/init.JPG)
+
 ![git asennus](/pic/gitsalt.JPG) 
 
 komennolla `$ sudo find -printf "%T+ %p\n"|sort` näemme että tiedostoon nimeltä gitconfig on tullut
 muutoksia, katsotaan mitä se sisältää.
 
-![git asennus](/pic/gitconfig.JPG)
+![git config](/pic/gitconfig.JPG)
 
 Juuri ne muutokset jotka komennolla teimme.
