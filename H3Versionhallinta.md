@@ -83,16 +83,17 @@ Aloitetaan kuten aina salt kansion sisään oma kansio tälle moduulille ja sen 
 Ensin tehdään "hello world" testi, jotta voidan varmistua että ohjelma toimii halutulla tavalla. Tämän jälkeen muutetaan 
 init.sls tiedostoa ja lisätään sinne komento asentaa git.  
 `git:  
+
   pkg.installed`  
 Testataan tämän toiminta.  
 `$ sudo salt '*' state.apply tehtava3`  
 
 ![git asennus](/pic/gitinstall.JPG)  
 
-Lisätän init.sls tiedostoon komennot tallentaa nini, sähköpostiosoite ja muutetaan aikakatkaisua, näin
+Lisätän init.sls tiedostoon komennot tallentaa nimi, sähköpostiosoite ja muutetaan aikakatkaisua, näin
 ei tarvitse kirjoittaa salasanaa joka push komennon yhteydessä.
 
-`'git config --system user.email "lindellgit@gmx.com"; git config --system user.name "Johan Lindell"; git config --system credential.helper "cache --timeout=3600"':    
+`'git config --system user.email "lindellgit@gmx.com"; git config --system user.name "Johan Lindell"; git config --system credential.helper "cache --timeout=3600"':  
   cmd.run`
 
 ![git asennus](/pic/gitsalt.JPG) 
