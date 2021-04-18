@@ -83,7 +83,6 @@ Aloitetaan kuten aina salt kansion sisään oma kansio tälle moduulille ja sen 
 Ensin tehdään "hello world" testi, jotta voidan varmistua että ohjelma toimii halutulla tavalla. Tämän jälkeen muutetaan 
 init.sls tiedostoa ja lisätään sinne komento asentaa git.  
 `git:  
-
   pkg.installed`  
 Testataan tämän toiminta.  
 `$ sudo salt '*' state.apply tehtava3`  
